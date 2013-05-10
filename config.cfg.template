@@ -1,0 +1,11 @@
+DEBUG = True
+DEBUG_LOG = 'logs/debug.log'
+ERROR_LOG =  'logs/error.log'
+
+ADMINS = ('user@domain.com',)
+TITLE = 'Tryton Modules'
+TEMPLATE = 'default'
+LANGUAGE = 'es'
+AUTHOR = 'Zikzakmedia'
+ANALYTICS = ''
+CACHE_TYPE = 'simple'

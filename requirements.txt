@@ -1,0 +1,4 @@
+pkginfo>=1.0
+Flask-Cache>=0.12
+docutils>=0.10
+Flask-Babel>=0.8

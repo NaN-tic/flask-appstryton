@@ -1,0 +1,27 @@
+Installing Flask Apps Tryton
+============================
+
+Prerequisites
+-------------
+
+ * Flask (https://pypi.python.org/pypi/Flask)
+
+Configuration
+-------------
+
+config.ini
+
+* APP NAME
+
+config.cfg
+
+* Debug
+* Template
+* Language
+
+PKG-INFO
+--------
+
+Create a ln in your packages to get information module:
+
+src/account$ ln -s trytond_account.egg-info/PKG-INFO PKG-INFO

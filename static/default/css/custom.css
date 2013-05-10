@@ -1,0 +1,62 @@
+body {
+  padding-top: 60px;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+
+.posted { font-size: 10px; color: #333333}
+.pull-right { padding-top:10px}
+.dropdown a { color:#fff}
+.hide-title { display: none; visibility: hidden}
+#sourcelink { display: none; visibility: hidden}
+
+/* Banner */
+#banner-box h2 { margin-left:30px}
+#banner-box p { margin-left:25px}
+#banner-box .bottons{ margin-top: 60px}
+ 
+.banner { padding: 30px 0; background-color: #6980a1; font-size: 18px; color: #e3e3e3; margin-top: 20px; border-radius: 6px}
+.banner p { padding: 0 10px}
+
+/* FAQ */
+#contents { float: right; margin-left:10px; padding-top:10px; padding-left:5px; width: 250px; border-left: 1px solid  #bfbfbf; font-size:12px; color:#6666}
+#contents .topic-title { display: none; visibility: hidden}
+
+/* About */
+.about { margin-top: 40px; margin-bottom: 40px}
+.about > div { margin-bottom: 20px}
+.about h3 { margin: 0; text-align: left; font-size: 14px}
+.about i {margin-right: 8px; font-size: 1.3em}
+
+/*Footer */
+hr .footer { margin: 10px 0; border: 0}
+
+/* Footer - Logos*/
+#footer-box { border:1px solid #ebebeb; border-top:1px solid #f2f2f2; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px);}
+.logos { }
+.logos h3 { padding-left:6px; font-size:11px; color:#999; font-weight:normal}
+.logos h3 a { font-weight:normal; color:#5b80b2; margin-left:5px}
+.logos a { margin-left:20px}
+.logos p {}
+.logos .first { margin-right:15px}
+
+/* Footer - Box blue */
+#footer-site { margin-top: 10px; margin-bottom:10px}
+.site-box { border-radius:5px; background:#5b80b2; background:-webkit-gradient(linear, 0 0, 0 bottom, from(#7b99c1), to(#557299)); background:-moz-linear-gradient(#7b99c1, #557299); background:linear-gradient(#7b99c1, #557299); -pie-background:linear-gradient(#7b99c1, #557299); -webkit-border-radius:5px; -moz-border-radius:5px}
+.site-copyright { font-size:12px; color:#fefefe; padding:10px 15px}
+.site-copyright p { margin:0}
+.site-copyright p a { color:#fefefe; font-weight:normal}
+
+/*Descarga */
+#linux h2 { font-size: 16px; padding-left: 25px; border-bottom:1px solid #f2f2f2; background: url(../img/linux.png) no-repeat left center}
+#windows h2 { font-size: 16px; padding-left: 25px; border-bottom:1px solid #f2f2f2; background: url(../img/windows.png) no-repeat left center}
+#macos-x h2 { font-size: 16px; padding-left: 25px; border-bottom:1px solid #f2f2f2; background: url(../img/macos.png) no-repeat left center}
+#android h2 { font-size: 16px; padding-left: 25px; border-bottom:1px solid #f2f2f2; background: url(../img/android.png) no-repeat left center}
+
+/*Demo */
+#descargar h2 { font-size: 16px; padding-left: 25px; border-bottom:1px solid #f2f2f2; background: url(../img/descargar.png) no-repeat left center}
+#conectar h2 { font-size: 16px; padding-left: 25px; border-bottom:1px solid #f2f2f2; background: url(../img/conectar.png) no-repeat left center}
+#demo h2 { font-size: 16px; padding-left: 25px; border-bottom:1px solid #f2f2f2; background: url(../img/tour.png) no-repeat left center}

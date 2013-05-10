@@ -1,0 +1,59 @@
+# Spanish translations for PROJECT.
+# Copyright (C) 2013 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2013-05-10 11:50+0200\n"
+"PO-Revision-Date: 2013-05-10 11:50+0100\n"
+"Last-Translator: Raimon Esteve <resteve@zikzakmedia.com>\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: templates/default/index.html:7
+msgid "Table of contents"
+msgstr "Tabla de contenidos"
+
+#: templates/default/info.html:8
+msgid "Summary"
+msgstr "Descripción"
+
+#: templates/default/info.html:9
+msgid "Version"
+msgstr "Versión"
+
+#: templates/default/info.html:10
+msgid "Author"
+msgstr "Autor"
+
+#: templates/default/info.html:11
+msgid "Licence"
+msgstr "Licencia"
+
+#: templates/default/info.html:12
+msgid "Project"
+msgstr "Proyecto"
+
+#: templates/default/info.html:13
+msgid "Download"
+msgstr "Descarga"
+
+#: templates/default/info.html:16
+msgid "Module Description"
+msgstr "Descripción del módulo"
+
+#: templates/default/info.html:21
+msgid "Other modules"
+msgstr "Módulos similares"
+
+#: templates/default/info.html:25
+msgid "All list modules"
+msgstr "Todos los módulos"
+

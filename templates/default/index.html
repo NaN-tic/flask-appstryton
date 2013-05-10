@@ -1,0 +1,24 @@
+{% extends "default/layout.html" %}
+{% block title %}Apps Tryton{% endblock %}
+{% block body %}
+<div class="row">
+    <div class="span12">
+        <div class="contents topic" id="contents">
+            <p class="topic-title first">{{ _("Table of contents") }}</p>
+            <ul class="simple">
+                {% for toc in tocs %}<li><a class="reference internal" href="#{{ toc }}">{{ toc }}</a></li>{% endfor %}
+            </ul>
+        </div>
+        <div class="tooltip-apps">
+            {% for module in modules %}{% if module.toc %}<div class="section" id="{{ module.toc }}"><strong>{{ module.toc }}</strong></div>{% endif %}
+            <p><strong><a href="{{ module.module_name }}" alt="{{ module.name }}" {% if module.info.summary %}data-toggle="tooltip" data-placement="bottom" title="{{ module.info.summary }}"{% else %}title="{{ module.name }}"{% endif %}>{{ module.name }}</a></strong></p>{% endfor %}
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $('.tooltip-apps').tooltip({
+      selector: "a[data-toggle=tooltip]"
+    })
+</script>
+{% endblock %}

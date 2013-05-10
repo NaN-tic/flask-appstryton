@@ -1,0 +1,30 @@
+Flask-AppsTryton
+================
+
+Flask-AppsTryton is a Flask App to list tryton modules and information.
+
+Installing
+----------
+
+See INSTALL
+
+Support
+-------
+
+For more information or if you encounter any problems with this module,
+please contact the programmers at
+
+  Zikzakmedia
+  --------------
+  website: http://www.zikzakmedia.com/
+  email: zikzak@zikzakmedia.com
+
+License
+-------
+
+See LICENSE
+
+Copyright
+---------
+
+See COPYRIGHT
