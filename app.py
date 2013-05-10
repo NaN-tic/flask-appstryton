@@ -55,6 +55,7 @@ def get_lang():
 conf_file = '%s/config.cfg' % os.path.dirname(os.path.realpath(__file__))
 app = create_app(conf_file)
 app.config['BABEL_DEFAULT_LOCALE'] = get_lang()
+app.root_path = os.path.dirname(os.path.abspath(__file__))
 babel = Babel(app)
 cache = Cache(app)
 
