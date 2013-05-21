@@ -68,7 +68,10 @@ def make_external(url):
 
 def get_module(modules, module):
     '''Return dict of base data module'''
-    return (item for item in modules if item["module_name"] == module).next()
+    for item in modules:
+        if item["module_name"] == module:
+            return item
+    abort(404)
 
 def get_info_module(src):
     '''Return dict of info module'''
