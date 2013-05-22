@@ -83,7 +83,7 @@ def get_info_module(src):
 
 def get_modules():
     '''Return list of info dict module'''
-    modules = []
+    mods = []
     tocs = []
     name_toc = None
     add_toc = True
@@ -114,7 +114,9 @@ def get_modules():
         }
         if add_toc:
             mod['toc'] = name_toc
-        modules.append(mod)
+        mods.append(mod)
+
+    modules = sorted(mods, key=lambda k: k['name']) 
     return modules, tocs
 
 @app.route('/')
