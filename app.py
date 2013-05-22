@@ -116,7 +116,9 @@ def get_modules():
             mod['toc'] = name_toc
         mods.append(mod)
 
-    modules = sorted(mods, key=lambda k: k['name']) 
+    modules = sorted(mods, key=lambda k: k['name'])
+    tocs = list(set(tocs))
+    tocs.sort()
     return modules, tocs
 
 @app.route('/')
