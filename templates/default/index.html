@@ -10,7 +10,7 @@
             </ul>
         </div>
         <div class="tooltip-apps">
-            {% for module in modules %}{% if module.toc %}<div class="section" id="{{ module.toc }}"><strong>{{ module.toc }}</strong></div>{% endif %}
+            {% for module in modules %}{% if module.toc %}<span class="anchor" id="{{ module.toc }}"></span><div class="section"><strong>{{ module.toc }}</strong></div>{% endif %}
             <p><strong><a href="{{ module.module_name }}" alt="{{ module.name }}" {% if module.info.summary %}data-toggle="tooltip" data-placement="bottom" title="{{ module.info.summary }}"{% else %}title="{{ module.name }}"{% endif %}>{{ module.name }}</a></strong></p>{% endfor %}
         </div>
     </div>

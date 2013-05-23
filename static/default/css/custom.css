@@ -7,6 +7,8 @@ body {
   }
 }
 
+.anchor{display: block; height: 50px;  margin-top: -50px; visibility: hidden}
+
 .posted { font-size: 10px; color: #333333}
 .pull-right { padding-top:10px}
 .dropdown a { color:#fff}
