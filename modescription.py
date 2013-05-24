@@ -12,7 +12,7 @@ def get_description(lang, src, name):
     if os.path.exists(doc_path):
         return read_rst(doc_path)
 
-    doc_path = '%s/doc/index.rst' % (path)
+    doc_path = '%s/doc/index.rst' % (src)
     if os.path.exists(doc_path):
         return read_rst(doc_path)
 
